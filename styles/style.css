@@ -1,0 +1,91 @@
+* {
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
+}
+
+.contenedor-principal {
+	width: 400px;
+	display: flex;
+	flex-direction: column;
+	border: solid 1px black;
+	margin: auto;
+	margin-top: 20px;
+}
+
+#usuarios {
+	display: flex;
+	flex-direction: row;
+	overflow-y: hidden;
+	overflow-x: auto;
+	justify-self: center;
+}
+
+.ig {
+	color: black;
+	font-size: 30px;
+	text-align: center;
+	font-family: 'Roboto' 'sans-serif';
+}
+
+.margen-superior {
+	width: 100%;
+	height: 50px;
+	background: #f0e1e1;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.contenedor-usuario {
+	max-width: 60px;
+	margin-right: 5px;
+}
+
+.imagen-usuario {
+	background: grey;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	margin: 5px 10px 5px 10px;
+}
+
+.imagen-posteo {
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+}
+
+.gif-posteo {
+	min-width: 100%;
+}
+
+.contenedor-imagen-usuario {
+	display: flex;
+	align-items: center;
+	margin: 20px auto 20px 5px;
+}
+
+.usuario-posteo {
+	margin-left: 5px;
+	font-weight: bold;
+}
+
+.nombre-usuario {
+	font-size: 11px;
+	max-width: 100%;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	text-align: center;
+	font-weight: bold;
+}
+
+.camera {
+	height: 50px;
+	width: 50px;
+}
+
+.corazon {
+	display: flex;
+}
